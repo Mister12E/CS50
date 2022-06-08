@@ -1,0 +1,10 @@
+Lecture programs:
+1.) Agree - This program asks the user if they agree. If they enter y or Y, it will print "Agreed." If the user enter n or N, it will print "Not agreed." Otherwse, it will print "Invalid input."
+2.) Calculator - This program asks the user for a x and a y value. It then prints the sum of x and y. 
+3.) Discount - This program asks the user for the regular price as well as the percentage off. It then prints the discounted price. This can be commonly used in retail stores. 
+4.) Hello - This program prints "hello, world" then asks for the user's name. It then prints "hello, user_name". 
+5.) Mario - This program asks the user for the height of the block it will print. It then prints a block using # of the user's specified height. 
+6.) Meow - This program prints the word "meow" 3 times using a function. 
+7.) Parity - This program gets a number from the user and checks if the number is even or odd. 
+8.) Pennies - This program gets a dollar amount from the user and converts it to pennies. 
+9.) Points - This program gets the number fo points the user lost and compares it with the number of points lost by the "programmer" and prints out if the user lost more points, less points or same amount of points compared to the "programmer. 
