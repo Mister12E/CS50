@@ -1,14 +1,19 @@
-#include <cs50.h>
+// #include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
+    long x, y;
     // Prompt user for x
-    long x = get_int("x: ");
+    printf ("x: ");
+    scanf ("%li", &x);
+    // long x = get_int("x: ");
 
     // Prompt user for y
-    long y = get_int("y: ");
+    printf ("y: ");
+    scanf ("%li", &y);
+    // long y = get_int("y: ");
 
     // Perform addition
-    printf("%li\n", x + y);
+    printf("The sum of x and y is: %li \n", x + y);
 }

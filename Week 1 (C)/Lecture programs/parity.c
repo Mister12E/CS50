@@ -3,7 +3,10 @@
 
 int main (void)
 {
-    /*int n = get_int("n: ");
+    int n;
+    printf ("n: ");
+    scanf ("%i", &n);
+    // int n = get_int("n: ");
 
     // If n is even
     if (n % 2 == 0)
@@ -14,5 +17,4 @@ int main (void)
     {
         printf("odd \n");
     }
-    */
 }

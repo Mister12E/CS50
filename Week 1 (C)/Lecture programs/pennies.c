@@ -4,9 +4,10 @@
 
 int main (void)
 {
-    /*
-    float amount = get_float("Dollar amount: ");
+    float amount;
+    printf ("Dollar amount: ");
+    scanf ("%f", &amount); 
+    // float amount = get_float("Dollar amount: ");
     int pennies = round (amount * 100);
     printf ("Pennies: %i\n", pennies);
-    */
 }

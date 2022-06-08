@@ -4,10 +4,11 @@
 int main (void)
 {
     int n;
-    /*
     do
     {
-        n = get_int("Size: ");
+        printf("Size: ");
+        scanf("%i", &n); 
+        // n = get_int("Size: ");
     }
     while (n <1);
 
@@ -24,5 +25,4 @@ int main (void)
         // Move to next row
         printf ("\n");
     }
-    */
 }

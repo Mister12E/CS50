@@ -3,9 +3,11 @@
 
 int main (void)
 {
-    /*
+    char c;
     // Prompt user to agree
-    char c = get_char("Do you agree? ");
+    printf("Do you agree? ");
+    scanf("%c", &c);
+    // char c = get_char("Do you agree? ");
 
     // Check whether user agreed
     if (c == 'y' || c == 'Y')
@@ -16,5 +18,8 @@ int main (void)
     {
         printf ("Not agreed. \n");
     }
-    */
+    else
+    {
+        printf ("Invalid input. \n");
+    }
 }
